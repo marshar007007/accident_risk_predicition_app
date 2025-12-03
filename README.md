@@ -21,7 +21,8 @@ This project predicts accident risk using a K-Nearest Neighbors (KNN) Regressor.
   - Mean Absolute Error (MAE)  
 
 ### Performance
-- R² Score: 0.828  
+- R² Score: 0.828 (test data)
+- R² Score: 0.887 (train data)
 - MSE: 0.0054  
 - MAE: 0.058  
 
