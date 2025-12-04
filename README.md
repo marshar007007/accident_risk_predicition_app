@@ -8,23 +8,25 @@ This project predicts accident risk using a K-Nearest Neighbors (KNN) Regressor.
 
 ## Dataset
 - **Dataset:** Road Accident risk dataset from kaggle
-- **Features:** 'road_type', 'num_lanes', 'curvature', 'speed_limit', 'lighting',
+- **Columns:** 'road_type', 'num_lanes', 'curvature', 'speed_limit', 'lighting',
        'weather', 'road_signs_present', 'public_road', 'time_of_day',
-       'holiday', 'school_season', 'num_reported_accidents', 'accident_risk'  
-- **Preprocessing:** Categorical features encoded using one hot encoder, dimension reduced using PCA
+       'holiday', 'school_season', 'num_reported_accidents', 'accident_risk'
+- **Preprocessing:** Categorical features encoded using one hot encoder, standard scaler used for numerical features, using PCA vs not using PCA to reduce dimesion(but without using PCA condition has better result)
 
 ## Model
 - **Algorithm:** KNN Regressor  
 - **Evaluation Metrics:**  
   - R² Score 
   - Mean Squared Error (MSE)  
-  - Mean Absolute Error (MAE)  
+  - Mean Absolute Error (MAE)
+  - Root Mean Squared Error (RMSE)
 
 ### Performance
 - R² Score: 0.828 (test data)
 - R² Score: 0.887 (train data)
-- MSE: 0.0054  
-- MAE: 0.058  
+- MSE: 0.0052  
+- MAE: 0.057
+- RMSE: 0.072
 
 ## Web App
 - Built with **Streamlit**  
