@@ -11,7 +11,7 @@ This project predicts accident risk using a K-Nearest Neighbors (KNN) Regressor.
 - **Columns:** 'road_type', 'num_lanes', 'curvature', 'speed_limit', 'lighting',
        'weather', 'road_signs_present', 'public_road', 'time_of_day',
        'holiday', 'school_season', 'num_reported_accidents', 'accident_risk'
-- **Preprocessing:** Categorical features encoded using one hot encoder, standard scaler used for numerical features, using PCA vs not using PCA to reduce dimesion(but without using PCA condition has better result)
+- **Preprocessing:** Categorical features encoded using one hot encoder, standard scaler used for numerical features, using PCA vs not using PCA to reduce dimesion(but without using PCA condition has better result, it can be seen under development code file).
 
 ## Model
 - **Algorithm:** KNN Regressor  
