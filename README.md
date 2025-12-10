@@ -22,12 +22,11 @@ This project predicts accident risk using a K-Nearest Neighbors (KNN) Regressor.
   - Root Mean Squared Error (RMSE)
 
 ### Performance
-- R² Score: 0.828 (test data)
-- R² Score: 0.887 (train data)
-- MSE: 0.0052  
-- MAE: 0.057
-- RMSE: 0.072
-
+- R2 Score: 0.8349013595439014
+- MSE: 0.0051929663999999995
+- MAE: 0.0570072
+- RMSE 0.07206223976535839
+  
 ## Web App
 - Built with **Streamlit**  
 - Allows users to input features and get accident risk predictions interactively  
